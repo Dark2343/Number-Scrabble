@@ -15,6 +15,7 @@
 
 using namespace std;
 
+// This is a function for displaying the main list of numbers
 void displaylist(list<int> g)
 {
     list<int>::iterator it;
@@ -24,6 +25,7 @@ void displaylist(list<int> g)
     cout << "\n";
 }
 
+// This is a function for displaying and sorting the player's list of numbers
 void sort(vector<int> v){
     sort(v.begin(),v.end());
     cout << "\nYour list of numbers: |";
@@ -32,6 +34,7 @@ void sort(vector<int> v){
     }
 }
 
+// This is a function for checking to see if the sum if 3 numbers in a player's list is = 15
 bool find3numbers(vector<int> u, int size , int sum){
     for (int i = 0; i < size; i++)
     {
