@@ -5,13 +5,7 @@
 // If all the numbers in the set have been chosen and none of the players meet the winning rule, the game ends in a draw.
 
 
-#include <iostream>
-#include <list>
-#include <iterator>
-#include <vector>
-#include <algorithm>
 #include <bits/stdc++.h>
-
 
 using namespace std;
 
